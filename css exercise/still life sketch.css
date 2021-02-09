@@ -1,0 +1,49 @@
+body { background: purple}
+h2 {color: pink}
+
+body{
+
+}
+
+.cup{
+
+	margin-left: 400px;
+	margin right: 150px;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background: lightgrey;
+}
+
+.square {
+
+	transform: rotate(90deg);
+    width: 400px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    top: 100px;
+    left: -300px;
+    border-radius: 0px 0px 120px 120px
+
+
+.handle {
+    width: 200px;
+    height: 250px;
+    background: black;
+    position: absolute;
+    left: 310px;
+    top: 130px;
+    border-radius: 30px;
+}
+
+.counter {
+    width: 70px;
+    height: 183px;
+    background: lightgrey;
+    position: absolute;
+    left: 410px;
+    top: 162px;
+    border-radius: 0px 10px 10px 0px;
+}
+
