@@ -1,12 +1,7 @@
-head {
-   
+body { 
+    background: #ffb347
 
 }
-
-body { background: orange}
-
-}
-
 
 .space1 {
 
@@ -16,9 +11,15 @@ body { background: orange}
 
 body{
 height: 120vh;
+
 }
 
+h4{
 
+    position: fixed;
+    font-family: courier new
+
+}
 .switch{
 
 	left: 400px;
