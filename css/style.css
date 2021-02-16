@@ -1,5 +1,20 @@
-body { background:#DDA0DD}
-h1 {color:	#98FB98;}
+*{
+	margin-left: 8px
+}
+
+.container{
+
+}
+
+body { 
+	background:#DDA0DD
+
+}
+h1 {
+	color:	#98FB98;
+	font-family: courier new
+
+}
 
 h3{
 	color:white;

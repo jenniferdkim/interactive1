@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box
+}
+
+/* type */
+
+body{
+	font-family: 'Arial', sans-serif;
+	background: rgb(201, 235, 52);
+	text-align: center;
+}
+
+/* text */
+
+p {
+	font-size: 22px;
+	transition-duration: 0.5s
+}
+
+p:hover {
+	font-size:100px;
+	transition-duration: 2.5s
+	text-transform: lowercase;
+	transform: skew(45deg);
+	color: orange
+
+
+}
+
+.shape{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+	position: relative;
+
+}
+
+/* try uncommenting below to see blur on hover */
+
+/*.shape:hover div {
+	filter: blur(10px);
+} */
+
+/* circles */
+
+.circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background: black;
+	transition-duration: 1s
+
+}
+.circle:hover{
+	background-color:pink;
+	transition-duration: 1s
+	transform: scaleX(3);
+	transform: skew(30deg)
+}
+.oval  {
+	width: 300px;
+	height: 100px;
+	background: black;
+	border-radius: 150px / 50px;
+}
+
+.oval:hover {
+	filter: blur(10px);
+
+	background: green;
+}
+
+
+.sliver {
+	width: 300px;
+	height: 40px;
+	background: black;
+	border-radius: 150px / 20px;
+	transition-duration: 1s
+
+}
+
+.sliver:hover{
+	filter: blur(15px);
+	background: yellow;
+	transform:scale(2,1.5);
+	transform: rotate(90deg);
+	transition-duration: 1s
+
+
+}
+
+/* square */
+
+.rect {
+	width: 40px;
+	height: 437px;
+	background: black;
+	display: inline-block;
+	margin: 0px 5px;
+	transition-duration: 0.5s
+
+}
+
+*.rect:hover{
+	transform: skew(45deg);
+	transition-duration: 0.5s
+}
+
+.star {
+	background: black;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+
+	transform-origin: top left;
+	transform: scaleX(2) scaleY(4.25) translateX(10px) translateY(10px);
+	transition-duration: 1s
+
+}
+
+.star:before,
+.star:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 80px;
+	background: black;
+	transform: rotate(270deg);
+}
+
+.star:before {
+	transform: rotate(30deg);
+}
+
+.star:after {
+	transform: rotate(60deg);
+
+}
+
+.star:hover{
+	transition-duration: 3s
+	transform: scaleX(20);
+	transform: rotate(180deg);
+	filter:blur(5px)
+}
