@@ -14,7 +14,7 @@ body{
     margin-left: 50px;
     width: 350px;
     height: 500px;
-    background: grey;
+    background: #d5e8b0;
 }
 
 		.s1{
@@ -28,15 +28,25 @@ body{
 		    transition-duration: 1s
 		}
 
-				.s1:hover{
+				.active1{
 					position: absolute;  
 				    height:50px; 
 				    width: 100px; 
 				    border-radius: 0 0 0 0; 
 				    background-color:black; 
-				    transition-duration: 0.5s
+				    transition-duration: 0.5s ease
 				}
-				 
+
+				.active2{
+					position: absolute;  
+				    height:50px; 
+				    width: 100px; 
+				    border-radius: 150px 150px 0 0; 
+				    background-color:red; 
+				    transition-duration: 0.5s ease
+				}
+
+				
 		.s2{
 			position: absolute;
 			width:50px;
@@ -55,7 +65,6 @@ body{
 				    border-radius: 100px 100px 100px 100px;
 				    transition-duration: 1s
 				}
-
 		.s3{
 			position: absolute;
 			width: 50px;
@@ -106,13 +115,22 @@ body{
 			transition-duration: 1s
 		}
 
-				.s5:hover{
+				.active3{
 					position: absolute;
-					width:50px;
-					height:100px;
-					border-radius: 0px 0 0px 0;
-					background-color:black;
-					transition-duration: 1s;
+					width: 50px;
+				    height: 100px;
+				    background: black;
+				    border-radius: 0 0 0 0;
+				    transition-duration: 1s 
+				}
+
+				.active4{
+				position: absolute;
+				width: 50px;
+				height: 100px;
+				background: red;
+				border-radius: 100px 0 0 0;
+				transition-duration: 1s 
 				}
 
 		.s6{
@@ -145,13 +163,22 @@ body{
 		    transition-duration: 1s
 		}
 
-				.s7:hover{
-					position: absolute;
-					width: 50px;
-				    height: 50px;
-				    background: red;
-				    border-radius: 100px 100px 100px 100px;
-				    transition-duration: .5s
+				.active13{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active14{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: black;
+				border-radius: 0 100px 0 0;
+				transition-duration: 1s 
 				}
 		.s8{
 			position: absolute;
@@ -164,14 +191,24 @@ body{
 		    transition-duration: 1s
 		}
 
-				.s8:hover{
-					position: absolute;
-					width: 50px;
-				    height: 50px;
-				    background: red;
-				    border-radius: 100px 100px 100px 100px;
-				    transition-duration: .5s
+				.active11{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
 				}
+
+				.active12{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: black;
+				border-radius: 0 100px 0 0;
+				transition-duration: 1s 
+				}
+
 
 		.s9{
 			position: absolute;
@@ -204,13 +241,22 @@ body{
 		    transition-duration: 0.5s
 		}
 
-				.s10:hover{
-					position: absolute;
-					width: 50px;
-				    height: 50px;
-				    background: red;
-				    border-radius: 100px 100px 100px 100px;
-				    transition-duration: 0.5s
+				.active9{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active10{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: black;
+				border-radius: 100px 0 0 0;
+				transition-duration: 1s 
 				}
 
 		.s11{
@@ -244,13 +290,22 @@ body{
 		    transition-duration: 1s
 		}
 
-				.s12:hover{
-					position: absolute;
-					width: 50px;
-				    height: 50px;
-				    background: red;
-				    border-radius: 100px 100px 100px 100px;
-				    transition-duration: 0.5s
+				.active5{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active6{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 0 0 0 100px;
+				transition-duration: 1s 
 				}
 
 		.s13{
@@ -284,13 +339,22 @@ body{
 		    transition-duration: 1s
 		}
 
-				.s14:hover{
-					position: absolute;
-					width: 50px;
-				    height: 50px;
-				    background: red;
-				    border-radius: 100px 100px 100px 100px;
-				    transition-duration: 0.5s
+				.active7{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active8{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: black;
+				border-radius: 0100px 0 0;
+				transition-duration: 1s 
 				}
 
 .p-bounding-box{
@@ -300,7 +364,7 @@ body{
     margin-left: 500px;
     width: 350px;
     height: 500px;
-    background: pink;
+    background: #d5e8b0;
 }
 
 		.p1{
@@ -314,7 +378,7 @@ body{
 		    transition-duration: 1s
 		}
 
-				.p1:hover{
+				.active15{
 					position: absolute;
 					width:50px;
 					height:50px;
@@ -322,6 +386,17 @@ body{
 					background-color:red;
 					transition-duration: 0.5s
 				}
+
+				.active16{
+					position: absolute;
+					width:50px;
+					height:50px;
+					border-radius: 100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				
 
 		.p2{
 			position: absolute;
@@ -352,12 +427,20 @@ body{
 			transition-duration: 1s
 		}
 
-				.p3:hover{
+				.active17{
 					position: absolute;
 					width: 50px;
 					height: 50px;
 					background: red;
-					border-radius: 0 0 100px 0;
+					border-radius: 0 100px 0 0;
+					transition-duration: 1s
+				}
+
+				.active18{
+					position: absolute;
+					width: 50px;
+					height: 50px;
+					background: black;
 					transition-duration: 1s
 				}
 
@@ -390,12 +473,20 @@ body{
 			transition-duration: 1s
 		}
 
-				.p5:hover{
+				.active19{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
 				    background: red;
 					border-radius: 100px 0 0 0;
+				    transition-duration: 1s
+		}
+
+			.active20{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: black;
 				    transition-duration: 1s
 		}
 
@@ -428,12 +519,21 @@ body{
 		    transition-duration: 1s;
 		}
 
-				.p7:hover{
+				.active21{
 					position: absolute;
 					border-radius: 0 0 0 0;
 					background-color:black;
 					transition-duration: 0.5s;
 				}
+
+				.active22{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s;
+				}
+
+
 
 		.p8{
 			position: absolute;
@@ -464,12 +564,21 @@ body{
 		    transition-duration: 1s
 		}
 
-				.p9:hover{
+				.active23{
 					position: absolute;
 					border-radius: 0 0 0 100px;
 					background-color:black;
 					transition-duration: 0.5s
 				}
+
+				.active24{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+
 
 		.p10{
 			position: absolute;
@@ -500,9 +609,16 @@ body{
 			transition-duration: 1s
 		}
 
-				.p11:hover{
+				.active25{
 					position: absolute;
 					border-radius: 0 100px 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active26{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
 					background-color:black;
 					transition-duration: 0.5s
 				}
@@ -536,12 +652,20 @@ body{
 		    transition-duration: 1s
 		}
 
-				.p13:hover{ 
+				.active27{ 
 					position: absolute;
 					border-radius: 0 0 0 100px;
 					background-color:black;
 					transition-duration: 0.5s
 				}
+
+				.active28{ 
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
 
 		.p14{
 			position: absolute;
@@ -572,12 +696,20 @@ body{
 		    transition-duration: 1s
 		}
 
-				.p15:hover{
+				.active29{
 					position: absolute;
 					border-radius: 0 0 100px 0;
 					background-color:black;
 					transition-duration: 0.5s
 				}
+
+				.active30{ 
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
 
 		.p16{
 			position: absolute;
@@ -608,11 +740,18 @@ body{
 		    transition-duration: 1s
 		}
 
-				.p17:hover{
+				.active31{
 					position: absolute;  
 				    border-radius: 0 0 0 150px; 
 				    background-color:black; 
 				    transition-duration: 0.5s
+				}
+
+				.active32{ 
+					position: absolute;
+					border-radius: 150px 150px 150px 150px;
+					background-color:red;
+					transition-duration: 0.5s
 				}
 
 .l-bounding-box{
@@ -622,7 +761,7 @@ body{
     margin-left: 950px;
     width: 400px;
     height: 500px;
-    background: green;
+    background: #d5e8b0;
 }
 
 		.l1{
@@ -636,10 +775,17 @@ body{
 		    transition-duration: 1s
 		}
 
-				.l1:hover{
+				.active33{
 					position: absolute;
 					border-radius: 0 0 0 0;
 					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active34{
+					position: absolute;
+					border-radius: 150px 0 0 150px;
+					background-color:red;
 					transition-duration: 0.5s
 				}
 
@@ -690,12 +836,21 @@ body{
 		    transition-duration: 1s
 		}
 
-				.l4:hover{
+				.active35{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
 					background-color:black;
 					transition-duration: 0.5s
 				}
+
+				.active36{
+					position: absolute;
+					border-radius: 100px 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+
 
 		.l5{
 			position: absolute;
@@ -721,12 +876,18 @@ body{
 			margin-left:950px;
 			margin-top: -150px;
 			background-color:red;
-			transition-duration: 1s
+			transition-duration: 0.5s
 		}
 
-				.l6:hover{
+				.active37{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active38{
+					position: absolute;
 					background-color:black;
 					transition-duration: 0.5s
 				}
@@ -756,12 +917,18 @@ body{
 			margin-left:1050px;
 			margin-top: -50px;
 			background-color:red;
-			transition-duration: 1s
+			transition-duration: 0.5s
 		}
 
-				.l8:hover{
+				.active39{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active40{
+					position: absolute;
 					background-color:black;
 					transition-duration: 0.5s
 				}
@@ -795,10 +962,17 @@ body{
 		    transition-duration: 1s
 		}
 
-				.l10:hover{
+				.active41{
 					position: absolute;
 					border-radius: 0 0 0 0;
 					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active42{
+					position: absolute;
+					border-radius: 0 0 150px 150px;
+					background-color:black;
 					transition-duration: 0.5s
 				}
 
@@ -826,7 +1000,7 @@ body{
     margin-left: 1450px;
     width: 100px;
     height: 500px;
-    background: orange;
+    background: #d5e8b0;
 }
 
 		.i1{
@@ -840,10 +1014,17 @@ body{
 		    transition-duration: 1s
 		}
 
-				.i1:hover{
+				.active43{
 					position: absolute;
 					border-radius: 0 100px 0 0;
 					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active44{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:black;
 					transition-duration: 0.5s
 				}
 
@@ -873,10 +1054,16 @@ body{
 			background-color:black;
 			transition-duration: 1s
 		}
-			.i3:hover{
+			.active45{
 					position: absolute;
 					border-radius:100px 0 0 0;
 					background-color:red;
+					transition-duration: 0.5s
+				}
+
+			.active46{
+					position: absolute;
+					background-color:black;
 					transition-duration: 0.5s
 				}
 
@@ -906,10 +1093,16 @@ body{
 			background-color:black;
 			transition-duration: 1s
 		}
-			.i5:hover{
+			.active47{
 					position: absolute;
 					border-radius:0 100px 0 0;
 					background-color:red;
+					transition-duration: 0.5s
+				}
+
+			.active48{
+					position: absolute;
+					background-color:black;
 					transition-duration: 0.5s
 				}
 
@@ -940,9 +1133,15 @@ body{
 			background-color:black;
 			transition-duration: 1s
 		}
-				.i7:hover{
+				.active49{
 					position: absolute;
 					border-radius:100px 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active50{
+					position: absolute;
 					background-color:red;
 					transition-duration: 0.5s
 				}
@@ -976,9 +1175,16 @@ body{
 		    transition-duration: 1s
 		}
 
-				.i9:hover{
+				.active51{
 					position: absolute;
 					border-radius:0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active52{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
 					background-color:black;
 					transition-duration: 0.5s
 				}
@@ -1008,7 +1214,7 @@ body{
     margin-left: 1650px;
     width: 400px;
     height: 500px;
-    background: purple;
+    background: #d5e8b0;
 }
 
 		.t1{
@@ -1022,10 +1228,17 @@ body{
 		    transition-duration: 1s
 		}
 
-				.t1:hover{
+				.active53{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active54{
+					position: absolute;
+					border-radius:0 0 100px 0;
+					background-color:black;
 					transition-duration: 0.5s
 				}
 
@@ -1045,6 +1258,7 @@ body{
 					background-color:black;
 					transition-duration: 0.5s
 				}
+
 		.t4{
 			position: absolute;
 			width: 50px;
@@ -1056,9 +1270,16 @@ body{
 		    transition-duration: 1s
 		}
 
-				.t4:hover{
+				.active55{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active56{
+					position: absolute;
+					border-radius:0 0 0 100px;
 					background-color:black;
 					transition-duration: 0.5s
 				}
@@ -1091,10 +1312,17 @@ body{
 		    border-radius: 0 0 0 100px;
 		    transition-duration: 1s
 		}
-				.t6:hover{
+				.active57{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active58{
+					position: absolute;
+					border-radius: 0 0 0 100px;
+					background-color:black;
 					transition-duration: 0.5s
 				}
 
@@ -1121,13 +1349,19 @@ body{
 			margin-left:2000px;
 			margin-top: -550px;
 			background-color:black;
-			transition-duration: 1s
+			transition-duration: 0.5s
 		}
 
-				.t8:hover{
+				.active59{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active60{
+					position: absolute;
+					background-color:black;
 					transition-duration: 0.5s
 				}
 
@@ -1158,9 +1392,16 @@ body{
 		    background-color: red;
 		    transition-duration: 1s
 		}
-				.t10:hover{
+				.active61{
 					position: absolute;
 					border-radius:0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active62{
+					position: absolute;
+					border-radius:0 150px 150px 0;
 					background-color:black;
 					transition-duration: 0.5s
 				}
@@ -1193,12 +1434,20 @@ body{
 		    background-color: red; 
 		    transition-duration: 1s
 		}
-				.t12:hover{
+				.active63{
 					position: absolute;
 					border-radius:0 0 0 0;
 					background-color:black;
 					transition-duration: 0.5s
 				}
+
+				.active64{
+					position: absolute;
+					border-radius:0 150px 150px 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+		
 		.t13{
 			position: absolute;
 			width: 50px;
@@ -1216,3 +1465,6 @@ body{
 					background-color:red;
 					transition-duration: 0.5s
 				}
+
+ 
+
