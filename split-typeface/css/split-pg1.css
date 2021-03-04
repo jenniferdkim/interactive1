@@ -1,6 +1,6 @@
 *{
-	margin-left: 100px;
-	margin-top: 100px;
+	margin-left: 150px;
+	margin-top: 200px;
 }
 
 body{
@@ -1264,7 +1264,7 @@ body{
 		    height: 50px;
 		    background:#cae8a7;
 		    margin-left: 1800px;
-		    margin-top:-550px;
+		    margin-top:-650px;
 		    border-radius: 0 0 0 100px;
 		    transition-duration: 1s
 		}
@@ -1289,7 +1289,7 @@ body{
 		    height: 50px;
 		    background:#cae8a7;
 		    margin-left: 1850px;
-		    margin-top:-600px;
+		    margin-top:-700px;
 		    border-radius: 100px 0 0 0;
 		    transition-duration: 1s
 		}
@@ -1307,7 +1307,7 @@ body{
 		    height: 50px;
 		    background: #cae8a7;
 		    margin-left: 1900px;
-		    margin-top:-550px;
+		    margin-top:-650px;
 		    border-radius: 0 0 0 100px;
 		    transition-duration: 1s
 		}
@@ -1331,7 +1331,7 @@ body{
 		    height: 50px;
 		    background: #cae8a7;
 		    margin-left: 1950px;
-		    margin-top:-600px;
+		    margin-top:-700px;
 		    border-radius: 0 100px 0 0;
 		    transition-duration: 1s
 		}
@@ -1346,7 +1346,7 @@ body{
 			width:50px;
 			height:50px;
 			margin-left:2000px;
-			margin-top: -550px;
+			margin-top: -650px;
 			background-color:#cae8a7;
 			transition-duration: 0.5s
 		}
@@ -1367,7 +1367,7 @@ body{
 		.t9{
 			position: absolute;
 			margin-left: 1800px;
-			margin-top: -500px;    
+			margin-top: -600px;    
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 150px 0 0 150px;
@@ -1384,7 +1384,7 @@ body{
 		.t10{
 			position: absolute;
 			margin-left: 1850px;
-			margin-top: -400px;    
+			margin-top: -500px;    
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 0 150px 150px 0; 
@@ -1411,7 +1411,7 @@ body{
 		    height: 50px;
 		    background:#cae8a7;
 		    margin-left: 1800px;
-		    margin-top:-300px;
+		    margin-top:-400px;
 		    border-radius: 0 0 0 100px;
 		    transition-duration: 1s
 		}
@@ -1426,7 +1426,7 @@ body{
 		.t12{
 			position: absolute;
 			margin-left: 1850px;
-			margin-top: -250px;    
+			margin-top: -350px;    
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 0 150px 150px 0; 
@@ -1453,7 +1453,7 @@ body{
 		    height: 50px;
 		    background:#cae8a7;
 		    margin-left: 1800px;
-		    margin-top:-150px;
+		    margin-top:-250px;
 		    border-radius: 100px 0 0;
 		    transition-duration: 1s
 		}
