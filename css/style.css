@@ -14,14 +14,18 @@
 }
 
 body { 
-	background:#DDA0DD
+	background:#DDA0DD;
+	font-family: courier new;
+	font-weight: bold; 
 
 }
 h1 {
 	color:	#98FB98;
+	font-family: courier new
 
 }
 
 h3{
 	color:white;
+	font-family: courier new
 }
