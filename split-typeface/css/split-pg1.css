@@ -4,7 +4,7 @@
 }
 
 body{
-	background: #d5e8b0;
+	background:#a8c28c;
 }
 
 
@@ -14,7 +14,7 @@ body{
     margin-left: 50px;
     width: 350px;
     height: 500px;
-    background: #d5e8b0;
+    background:#a8c28c;
 }
 
 		.s1{
@@ -24,8 +24,8 @@ body{
 		    height:50px; 
 		    width: 100px; 
 		    border-radius: 150px 150px 0 0; 
-		    background-color: red; 
-		    transition-duration: 1s
+		    background:#cae8a7; 
+		    transition: all 0.5s ease;
 		}
 
 				.active1{
@@ -33,8 +33,8 @@ body{
 				    height:50px; 
 				    width: 100px; 
 				    border-radius: 0 0 0 0; 
-				    background-color:black; 
-				    transition-duration: 0.5s ease
+				    background:#ddf5c1;
+
 				}
 
 				.active2{
@@ -42,8 +42,7 @@ body{
 				    height:50px; 
 				    width: 100px; 
 				    border-radius: 150px 150px 0 0; 
-				    background-color:red; 
-				    transition-duration: 0.5s ease
+				 	background:#cae8a7;
 				}
 
 				
@@ -53,7 +52,7 @@ body{
 			height:50px;
 			margin-left:100px;
 			margin-top: -150px;
-			background-color:red;
+			background-color:#cae8a7;
 			transition-duration: 1s
 		}
 
@@ -61,7 +60,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: black;
+				    background: #ddf5c1;
 				    border-radius: 100px 100px 100px 100px;
 				    transition-duration: 1s
 				}
@@ -69,7 +68,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 300px;
 		    margin-top:-450px;
 		    border-radius: 0 100px 0 0;
@@ -80,7 +79,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: red;
+				    background: #ddf5c1;
 				    border-radius: 100px 100px 100px 100px;
 				    transition-duration: 1s
 				}
@@ -91,7 +90,7 @@ body{
 			height:50px;
 			margin-left:150px;
 			margin-top: -300px;
-			background-color:black;
+			background-color:#cae8a7;
 			transition-duration: 1s;
 		}
 
@@ -99,7 +98,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: red;
+				    background: #ddf5c1;
 				    border-radius: 100px 100px 100px 100px;
 				    transition-duration: .5s
 				}
@@ -111,7 +110,7 @@ body{
 			margin-left:100px;
 			margin-top: -400px;
 			border-radius: 100px 0 0px 0;
-			background-color:red;
+			background-color:#cae8a7;
 			transition-duration: 1s
 		}
 
@@ -119,7 +118,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 100px;
-				    background: black;
+				    background: #ddf5c1;
 				    border-radius: 0 0 0 0;
 				    transition-duration: 1s 
 				}
@@ -128,7 +127,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 100px;
-				background: red;
+				background: #cae8a7;
 				border-radius: 100px 0 0 0;
 				transition-duration: 1s 
 				}
@@ -139,7 +138,7 @@ body{
 			height:50px;
 			margin-left:150px;
 			margin-top: -450px;
-			background-color:black;
+			background-color:#cae8a7;
 			transition-duration: 1s
 		}
 
@@ -147,7 +146,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: red;
+				    background: #ddf5c1;
 				    border-radius: 100px 100px 100px 100px;
 				    transition-duration: .5s
 				}
@@ -156,7 +155,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 50px;
 		    margin-top:-200px;
 		    border-radius: 0 100px 0 0;
@@ -167,7 +166,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: red;
+				background: #ddf5c1;
 				border-radius: 100px 100px 100px 100px;
 				transition-duration: 1s 
 				}
@@ -176,7 +175,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: black;
+				background: #cae8a7;
 				border-radius: 0 100px 0 0;
 				transition-duration: 1s 
 				}
@@ -184,7 +183,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 150px;
 		    margin-top:-100px;
 		    border-radius: 0 100px 0 0;
@@ -195,7 +194,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: red;
+				background:#ddf5c1;
 				border-radius: 100px 100px 100px 100px;
 				transition-duration: 1s 
 				}
@@ -204,7 +203,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: black;
+				background: #cae8a7;
 				border-radius: 0 100px 0 0;
 				transition-duration: 1s 
 				}
@@ -217,7 +216,7 @@ body{
 		    height:50px; 
 		    width: 100px; 
 		    border-radius: 0 0 150px 150px; 
-		    background-color: red;
+		    background-color: #cae8a7;
 		    transition-duration: 0.5s
 		}
 
@@ -226,7 +225,7 @@ body{
 				    height:50px; 
 				    width: 100px; 
 				    border-radius: 0 0 0 0; 
-				    background-color:black; 
+				    background-color:#ddf5c1; 
 				    transition-duration: 0.5s
 				}
 
@@ -234,7 +233,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background:#cae8a7;
 		    margin-left: 300px;
 		    margin-top:-100px;
 		    border-radius: 100px 0 0 0;
@@ -245,7 +244,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: red;
+				background: #ddf5c1;
 				border-radius: 100px 100px 100px 100px;
 				transition-duration: 1s 
 				}
@@ -254,7 +253,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: black;
+				background: #cae8a7;
 				border-radius: 100px 0 0 0;
 				transition-duration: 1s 
 				}
@@ -266,7 +265,7 @@ body{
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 0 150px 150px 0; 
-		    background-color: red; 
+		    background-color:#cae8a7; 
 		    transition-duration: 1s;
 		}
 
@@ -275,7 +274,7 @@ body{
 				    height:100px; 
 				    width: 50px; 
 				    border-radius: 0 0 0 0; 
-				    background-color:black; 
+				    background-color:#ddf5c1; 
 				    transition-duration: 0.5s
 				}
 
@@ -283,7 +282,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background:#cae8a7;
 		    margin-left: 200px;
 		    margin-top:-250px;
 		    border-radius: 0 0 0 100px;
@@ -294,7 +293,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: red;
+				background: #ddf5c1;
 				border-radius: 100px 100px 100px 100px;
 				transition-duration: 1s 
 				}
@@ -303,7 +302,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: red;
+				background:#cae8a7;
 				border-radius: 0 0 0 100px;
 				transition-duration: 1s 
 				}
@@ -312,7 +311,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 250px;
 		    margin-top:-300px;
 		    border-radius: 0 100px 0 0;
@@ -323,7 +322,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: red;
+				    background: #ddf5c1;
 				    border-radius: 100px 100px 100px 100px;
 				    transition-duration: 0.5s
 				}
@@ -332,7 +331,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background:  #cae8a7;
 		    margin-left: 300px;
 		    margin-top:-250px;
 		    border-radius: 0 100px 0 0;
@@ -343,7 +342,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: red;
+				background:#ddf5c1;
 				border-radius: 100px 100px 100px 100px;
 				transition-duration: 1s 
 				}
@@ -352,7 +351,7 @@ body{
 				position: absolute;
 				width: 50px;
 				height: 50px;
-				background: black;
+				background: #cae8a7;
 				border-radius: 0100px 0 0;
 				transition-duration: 1s 
 				}
@@ -364,14 +363,14 @@ body{
     margin-left: 500px;
     width: 350px;
     height: 500px;
-    background: #d5e8b0;
+    background:#a8c28c;
 }
 
 		.p1{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #ddf5c1;
 		    margin-left: 500px;
 		    margin-top:-50px;
 		    border-radius: 100px 100px 100px 100px;
@@ -383,7 +382,7 @@ body{
 					width:50px;
 					height:50px;
 					border-radius: 100px 0 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -392,7 +391,7 @@ body{
 					width:50px;
 					height:50px;
 					border-radius: 100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -404,7 +403,7 @@ body{
 			height:50px;
 			margin-left:550px;
 			margin-top: -50px;
-			background-color:red;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 
@@ -412,7 +411,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: black;
+				    background:#cae8a7;
 					border-radius: 0 0  100px 0;
 				    transition-duration: 1s
 					}
@@ -423,7 +422,7 @@ body{
 			height:50px;
 			margin-left:550px;
 			margin-top: -100px;
-			background-color:black;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 
@@ -431,7 +430,7 @@ body{
 					position: absolute;
 					width: 50px;
 					height: 50px;
-					background: red;
+					background: #cae8a7;
 					border-radius: 0 100px 0 0;
 					transition-duration: 1s
 				}
@@ -440,7 +439,7 @@ body{
 					position: absolute;
 					width: 50px;
 					height: 50px;
-					background: black;
+					background: #ddf5c1;
 					transition-duration: 1s
 				}
 
@@ -450,7 +449,7 @@ body{
 			height:50px;
 			margin-left:500px;
 			margin-top: -150px;
-			background-color:red;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 
@@ -458,7 +457,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: black;
+				    background: #cae8a7;
 					border-radius: 0 0 0 100px;
 				    transition-duration: 1s
 		}
@@ -469,7 +468,7 @@ body{
 			height:50px;
 			margin-left:500px;
 			margin-top: -200px;
-			background-color:black;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 
@@ -477,7 +476,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: red;
+				    background: #cae8a7;
 					border-radius: 100px 0 0 0;
 				    transition-duration: 1s
 		}
@@ -486,7 +485,7 @@ body{
 					position: absolute;
 					width: 50px;
 				    height: 50px;
-				    background: black;
+				    background: #ddf5c1;
 				    transition-duration: 1s
 		}
 
@@ -494,7 +493,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #ddf5c1;
 		    margin-left: 550px;
 		    margin-top:-250px;
 		    border-radius: 100px 100px 100px 100px;
@@ -504,7 +503,7 @@ body{
 				.p6:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:red;
+					background-color: #cae8a7;
 					transition-duration: 0.5s;
 				}
 
@@ -512,7 +511,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background:#ddf5c1;
 		    margin-left: 600px;
 		    margin-top:-250px;
 		    border-radius: 100px 100px 100px 100px;
@@ -522,14 +521,14 @@ body{
 				.active21{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:black;
+					background-color: #cae8a7;
 					transition-duration: 0.5s;
 				}
 
 				.active22{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s;
 				}
 
@@ -539,7 +538,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background:black;
+		    background:#ddf5c1;
 		    margin-left: 650px;
 		    margin-top:-300px;
 		    border-radius: 100px 100px 100px 100px;
@@ -549,7 +548,7 @@ body{
 				.p8:hover{
 					position: absolute;
 					border-radius: 100px 0 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -557,7 +556,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background:#ddf5c1;
 		    margin-left: 700px;
 		    margin-top:-250px;
 		    border-radius: 100px 100px 100px 100px;
@@ -567,14 +566,14 @@ body{
 				.active23{
 					position: absolute;
 					border-radius: 0 0 0 100px;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 				.active24{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -584,7 +583,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background:black;
+		    background:#ddf5c1;
 		    margin-left: 750px;
 		    margin-top:-300px;
 		    border-radius: 100px 100px 100px 100px;
@@ -594,7 +593,7 @@ body{
 				.p10:hover{
 					position: absolute;
 					border-radius: 0 0 100px 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -602,7 +601,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background:red;
+		    background:#ddf5c1;
 		    margin-left: 800px;
 		    margin-top:-350px;
 		    border-radius: 100px 100px 100px 100px;
@@ -612,14 +611,14 @@ body{
 				.active25{
 					position: absolute;
 					border-radius: 0 100px 0 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 				.active26{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -627,7 +626,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #ddf5c1;
 		    margin-left: 750px;
 		    margin-top:-400px;
 		    border-radius: 100px 100px 100px 100px;
@@ -637,7 +636,7 @@ body{
 				.p12:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -645,7 +644,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background: #ddf5c1;
 		    margin-left: 700px;
 		    margin-top:-450px;
 		    border-radius: 100px 100px 100px 100px;
@@ -655,14 +654,14 @@ body{
 				.active27{ 
 					position: absolute;
 					border-radius: 0 0 0 100px;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 				.active28{ 
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -671,7 +670,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #ddf5c1;
 		    margin-left: 650px;
 		    margin-top:-500px;
 		    border-radius: 100px 100px 100px 100px;
@@ -681,7 +680,7 @@ body{
 				.p14:hover{
 					position: absolute;
 					border-radius: 100px 0 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -689,7 +688,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background: #ddf5c1;
 		    margin-left: 600px;
 		    margin-top:-450px;
 		    border-radius: 100px 100px 100px 100px;
@@ -699,14 +698,14 @@ body{
 				.active29{
 					position: absolute;
 					border-radius: 0 0 100px 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 				.active30{ 
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -715,7 +714,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #ddf5c1;
 		    margin-left: 550px;
 		    margin-top:-500px;
 		    border-radius: 100px 100px 100px 100px;
@@ -725,7 +724,7 @@ body{
 				.p16:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -733,7 +732,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 200px;
-		    background: red;
+		    background: #ddf5c1;
 		    margin-left: 500px;
 		    margin-top: -450px;
 		    border-radius: 150px 150px 150px 150px;
@@ -743,14 +742,14 @@ body{
 				.active31{
 					position: absolute;  
 				    border-radius: 0 0 0 150px; 
-				    background-color:black; 
+				    background-color:#cae8a7; 
 				    transition-duration: 0.5s
 				}
 
 				.active32{ 
 					position: absolute;
 					border-radius: 150px 150px 150px 150px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -761,7 +760,7 @@ body{
     margin-left: 950px;
     width: 400px;
     height: 500px;
-    background: #d5e8b0;
+    background:#a8c28c;
 }
 
 		.l1{
@@ -771,21 +770,21 @@ body{
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 150px 0 0 150px; 
-		    background-color: red; 
+		    background-color:#cae8a7; 
 		    transition-duration: 1s
 		}
 
 				.active33{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active34{
 					position: absolute;
 					border-radius: 150px 0 0 150px;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -793,7 +792,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background:#cae8a7;
 		    margin-left: 1000px;
 		    margin-top:-500px;
 		    border-radius: 0 100px 0 0;
@@ -803,7 +802,7 @@ body{
 				.l2:hover{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -814,14 +813,14 @@ body{
 		    height:100px; 
 		    width: 50px; 
 		    border-radius:0 150px 150px 0; 
-		    background-color: black;
+		    background-color: #cae8a7;
 		    transition-duration: 1s
 		}
 
 				.l3:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -829,7 +828,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background: #cae8a7;
 		    margin-left: 950px;
 		    margin-top:-250px;
 		    border-radius: 100px 0 0 0;
@@ -839,14 +838,14 @@ body{
 				.active35{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active36{
 					position: absolute;
 					border-radius: 100px 0 0 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -856,7 +855,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 1000px;
 		    margin-top:-200px;
 		    border-radius: 0 0 100px 0;
@@ -865,7 +864,7 @@ body{
 				.l5:hover{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -875,20 +874,20 @@ body{
 			height:50px;
 			margin-left:950px;
 			margin-top: -150px;
-			background-color:red;
+			background-color:#cae8a7;
 			transition-duration: 0.5s
 		}
 
 				.active37{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active38{
 					position: absolute;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -896,7 +895,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 1000px;
 		    margin-top:-100px;
 		    border-radius: 0 0 0 100px;
@@ -906,7 +905,7 @@ body{
 				.l7:hover{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -916,20 +915,20 @@ body{
 			height:50px;
 			margin-left:1050px;
 			margin-top: -50px;
-			background-color:red;
+			background-color:#cae8a7;
 			transition-duration: 0.5s
 		}
 
 				.active39{
 					position: absolute;
 					border-radius: 100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active40{
 					position: absolute;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -940,14 +939,14 @@ body{
 		    height:50px; 
 		    width: 100px; 
 		    border-radius: 150px 150px 0 0; 
-		    background-color: black;
+		    background-color:#cae8a7;
 		    transition-duration: 1s 
 		}
 
 				.l9:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -958,21 +957,21 @@ body{
 		    height:50px; 
 		    width: 100px; 
 		    border-radius:0 0 150px 150px; 
-		    background-color: black;
+		    background-color:#cae8a7;
 		    transition-duration: 1s
 		}
 
 				.active41{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active42{
 					position: absolute;
 					border-radius: 0 0 150px 150px;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -980,7 +979,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 1300px;
 		    margin-top:-100px;
 		    border-radius: 0 0 100px 0;
@@ -990,7 +989,7 @@ body{
 				.l11:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1000,14 +999,14 @@ body{
     margin-left: 1450px;
     width: 100px;
     height: 500px;
-    background: #d5e8b0;
+    background:#a8c28c;
 }
 
 		.i1{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background:#ddf5c1;
 		    margin-left: 1450px;
 		    margin-top:-500px;
 		    border-radius: 100px 100px 100px 100px;
@@ -1017,14 +1016,14 @@ body{
 				.active43{
 					position: absolute;
 					border-radius: 0 100px 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 				.active44{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1032,7 +1031,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background:#ddf5c1;
 		    margin-left: 1500px;
 		    margin-top:-450px;
 		    border-radius: 100px 100px 100px 100px;
@@ -1041,7 +1040,7 @@ body{
 				.i2:hover{
 					position: absolute;
 					border-radius:0 0 0 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1051,19 +1050,19 @@ body{
 			height:50px;
 			margin-left:1450px;
 			margin-top: -400px;
-			background-color:black;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 			.active45{
 					position: absolute;
 					border-radius:100px 0 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 			.active46{
 					position: absolute;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1074,13 +1073,13 @@ body{
 			margin-left:1450px;
 			margin-top: -350px;
 			border-radius: 0px 0 0px 0;
-			background-color:red;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 				.i4:hover{
 					position: absolute;
 					border-radius:0 0 0 100px;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1090,19 +1089,19 @@ body{
 			height:50px;
 			margin-left:1500px;
 			margin-top: -300px;
-			background-color:black;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 			.active47{
 					position: absolute;
 					border-radius:0 100px 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 			.active48{
 					position: absolute;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1113,14 +1112,14 @@ body{
 			margin-left:1500px;
 			margin-top: -250px;
 			border-radius: 0px 0 0px 0;
-			background-color:red;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 
 				.i6:hover{
 					position: absolute;
 					border-radius:0 0 100px 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1130,19 +1129,19 @@ body{
 			height:50px;
 			margin-left:1450px;
 			margin-top: -200px;
-			background-color:black;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 				.active49{
 					position: absolute;
 					border-radius:100px 0 0 0;
-					background-color:red;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 				.active50{
 					position: absolute;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1153,14 +1152,14 @@ body{
 			margin-left:1450px;
 			margin-top: -150px;
 			border-radius: 0px 0 0px 0;
-			background-color:red;
+			background-color:#ddf5c1;
 			transition-duration: 1s
 		}
 
 				.i8:hover{
 					position: absolute;
 					border-radius:0 0 0 100px;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1168,7 +1167,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background:#ddf5c1;
 		    margin-left: 1500px;
 		    margin-top:-100px;
 		    border-radius: 100px 100px 100px 100px;
@@ -1178,14 +1177,14 @@ body{
 				.active51{
 					position: absolute;
 					border-radius:0 0 0 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
 				.active52{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1193,7 +1192,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background:#ddf5c1;
 		    margin-left: 1450px;
 		    margin-top:-50px;
 		    border-radius: 100px 100px 100px 100px;
@@ -1203,7 +1202,7 @@ body{
 			.i10:hover{
 					position: absolute;
 					border-radius:100px 0 0 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1214,14 +1213,14 @@ body{
     margin-left: 1650px;
     width: 400px;
     height: 500px;
-    background: #d5e8b0;
+    background:#a8c28c;
 }
 
 		.t1{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 1650px;
 		    margin-top:-450px;
 		    border-radius: 0 0 100px 0;
@@ -1231,14 +1230,14 @@ body{
 				.active53{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active54{
 					position: absolute;
 					border-radius:0 0 100px 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1249,13 +1248,13 @@ body{
 			width:100px;
 			height:50px;
 			border-radius:0 100px 0px 0;
-			background-color:red;
+			background-color:#cae8a7;
 			transition-duration: 1s
 		}
 				.t2:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1263,7 +1262,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background:#cae8a7;
 		    margin-left: 1800px;
 		    margin-top:-550px;
 		    border-radius: 0 0 0 100px;
@@ -1273,14 +1272,14 @@ body{
 				.active55{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active56{
 					position: absolute;
 					border-radius:0 0 0 100px;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1288,7 +1287,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background:#cae8a7;
 		    margin-left: 1850px;
 		    margin-top:-600px;
 		    border-radius: 100px 0 0 0;
@@ -1298,7 +1297,7 @@ body{
 				.t5:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1306,7 +1305,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background: #cae8a7;
 		    margin-left: 1900px;
 		    margin-top:-550px;
 		    border-radius: 0 0 0 100px;
@@ -1315,14 +1314,14 @@ body{
 				.active57{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active58{
 					position: absolute;
 					border-radius: 0 0 0 100px;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1330,7 +1329,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background: #cae8a7;
 		    margin-left: 1950px;
 		    margin-top:-600px;
 		    border-radius: 0 100px 0 0;
@@ -1339,7 +1338,7 @@ body{
 				.t7:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 		.t8{
@@ -1348,20 +1347,20 @@ body{
 			height:50px;
 			margin-left:2000px;
 			margin-top: -550px;
-			background-color:black;
+			background-color:#cae8a7;
 			transition-duration: 0.5s
 		}
 
 				.active59{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active60{
 					position: absolute;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 
@@ -1372,13 +1371,13 @@ body{
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 150px 0 0 150px;
-		    background-color: black; 
+		    background-color:#cae8a7; 
 		    transition-duration: 1s
 		}
 				.t9:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1389,20 +1388,20 @@ body{
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 0 150px 150px 0; 
-		    background-color: red;
+		    background-color:#cae8a7;
 		    transition-duration: 1s
 		}
 				.active61{
 					position: absolute;
 					border-radius:0 0 0 0;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active62{
 					position: absolute;
 					border-radius:0 150px 150px 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 		
@@ -1410,7 +1409,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: red;
+		    background:#cae8a7;
 		    margin-left: 1800px;
 		    margin-top:-300px;
 		    border-radius: 0 0 0 100px;
@@ -1419,7 +1418,7 @@ body{
 				.t11:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
@@ -1431,20 +1430,20 @@ body{
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 0 150px 150px 0; 
-		    background-color: red; 
+		    background-color: #cae8a7; 
 		    transition-duration: 1s
 		}
 				.active63{
 					position: absolute;
 					border-radius:0 0 0 0;
-					background-color:black;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
 				.active64{
 					position: absolute;
 					border-radius:0 150px 150px 0;
-					background-color:black;
+					background-color:#cae8a7;
 					transition-duration: 0.5s
 				}
 		
@@ -1452,7 +1451,7 @@ body{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
-		    background: black;
+		    background:#cae8a7;
 		    margin-left: 1800px;
 		    margin-top:-150px;
 		    border-radius: 100px 0 0;
@@ -1462,7 +1461,7 @@ body{
 			.t13:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
-					background-color:red;
+					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 

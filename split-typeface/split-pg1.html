@@ -165,6 +165,17 @@
 
 	<script>
 
+$(document).ready(function(){
+  $('div').each(function(){
+    var number = 0 + Math.floor(Math.random() * 2);
+    console.log(number);
+    if(number == 1){
+      $(this).addClass('active');
+    } else if (number == 2){
+      /* don't do anything */
+    } 
+  });
+});
 // LETTER S
 
 	$(".s1").on('mouseover',function(){
@@ -186,7 +197,7 @@
 		$(".s7").toggleClass('active13');
 });
 
-	$(".s7").off('mouseout',function(){
+	$(".s7").off('mouse out',function(){
     		$(this).addClass('active14');
 });
 
@@ -429,15 +440,6 @@ $(".p17").on('mouseover',function(){
 	$(".t12").off('mouseout',function(){
     		$(this).addClass('active64');
 });
-
-
-
-
-
-
-
-
-
 
 </script>
 
