@@ -1,20 +1,36 @@
 *{
-	margin-left: 150px;
-	margin-top: 200px;
+	margin-left: 0px;
+	margin-top: 0px;
+	transform: scale(0.5);
+
 }
 
 body{
 	background:#a8c28c;
+    width:10vw;
+    height:10vh;
 }
 
 
+@media screen  {
+ 	body {
+    display: auto;
+    resize: auto;
+    height:50vh;
+    width: 50vw;
+
+      }
+}
+
 .s-bounding-box{
     position: relative;
-    margin-top: 200px;
-    margin-left: 50px;
-    width: 350px;
+    margin-top: 150px;
+    margin-left: 25px;
+    width: 2050px;
     height: 500px;
-    background:#a8c28c;
+    padding-right:10px;
+    padding-left: 10px;
+    background-color:#a8c28c;
 }
 
 		.s1{
@@ -26,6 +42,7 @@ body{
 		    border-radius: 150px 150px 0 0; 
 		    background:#cae8a7; 
 		    transition: all 0.5s ease;
+
 		}
 
 				.active1{
@@ -356,7 +373,7 @@ body{
 				transition-duration: 1s 
 				}
 
-.p-bounding-box{
+/*.p-bounding-box{
 
     position: relative;
     margin-top: -500px;
@@ -364,7 +381,8 @@ body{
     width: 350px;
     height: 500px;
     background:#a8c28c;
-}
+
+}*/
 
 		.p1{
 			position: absolute;
@@ -753,7 +771,7 @@ body{
 					transition-duration: 0.5s
 				}
 
-.l-bounding-box{
+/*.l-bounding-box{
 
     position: relative;
     margin-top: -500px;
@@ -761,7 +779,7 @@ body{
     width: 400px;
     height: 500px;
     background:#a8c28c;
-}
+}*/
 
 		.l1{
 			position: absolute;
@@ -993,14 +1011,14 @@ body{
 					transition-duration: 0.5s
 				}
 
-.i-bounding-box{
+/*.i-bounding-box{
 	position: relative;
     margin-top: -500px;
     margin-left: 1450px;
     width: 100px;
     height: 500px;
     background:#a8c28c;
-}
+}*/
 
 		.i1{
 			position: absolute;
@@ -1206,16 +1224,17 @@ body{
 					transition-duration: 0.5s
 				}
 
-.t-bounding-box{
+/*.t-bounding-box{
 
     position: relative;
     margin-top: -500px;
     margin-left: 1650px;
     width: 400px;
     height: 500px;
-    background:#a8c28c;
+    padding-right: 30px;
+    background:white;
 }
-
+*/
 		.t1{
 			position: absolute;
 			width: 50px;
@@ -1258,13 +1277,13 @@ body{
 					transition-duration: 0.5s
 				}
 
-		.t4{
+		.t3{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
 		    background:#cae8a7;
 		    margin-left: 1800px;
-		    margin-top:-650px;
+		    margin-top:-450px;
 		    border-radius: 0 0 0 100px;
 		    transition-duration: 1s
 		}
@@ -1283,31 +1302,31 @@ body{
 					transition-duration: 0.5s
 				}
 
-		.t5{
+		.t4{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
 		    background:#cae8a7;
 		    margin-left: 1850px;
-		    margin-top:-700px;
+		    margin-top:-500px;
 		    border-radius: 100px 0 0 0;
 		    transition-duration: 1s
 		}
 
-				.t5:hover{
+				.t4:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
-		.t6{
+		.t5{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
 		    background: #cae8a7;
 		    margin-left: 1900px;
-		    margin-top:-650px;
+		    margin-top:-450px;
 		    border-radius: 0 0 0 100px;
 		    transition-duration: 1s
 		}
@@ -1325,28 +1344,28 @@ body{
 					transition-duration: 0.5s
 				}
 
-		.t7{
+		.t6{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
 		    background: #cae8a7;
 		    margin-left: 1950px;
-		    margin-top:-700px;
+		    margin-top:-500px;
 		    border-radius: 0 100px 0 0;
 		    transition-duration: 1s
 		}
-				.t7:hover{
+				.t6:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
-		.t8{
+		.t7{
 			position: absolute;
 			width:50px;
 			height:50px;
 			margin-left:2000px;
-			margin-top: -650px;
+			margin-top: -450px;
 			background-color:#cae8a7;
 			transition-duration: 0.5s
 		}
@@ -1364,27 +1383,27 @@ body{
 					transition-duration: 0.5s
 				}
 
-		.t9{
+		.t8{
 			position: absolute;
 			margin-left: 1800px;
-			margin-top: -600px;    
+			margin-top: -400px;    
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 150px 0 0 150px;
 		    background-color:#cae8a7; 
 		    transition-duration: 1s
 		}
-				.t9:hover{
+				.t8:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
 					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
-		.t10{
+		.t9{
 			position: absolute;
 			margin-left: 1850px;
-			margin-top: -500px;    
+			margin-top: -300px;    
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 0 150px 150px 0; 
@@ -1405,17 +1424,17 @@ body{
 					transition-duration: 0.5s
 				}
 		
-		.t11{
+		.t10{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
 		    background:#cae8a7;
 		    margin-left: 1800px;
-		    margin-top:-400px;
+		    margin-top:-200px;
 		    border-radius: 0 0 0 100px;
 		    transition-duration: 1s
 		}
-				.t11:hover{
+				.t10:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:#ddf5c1;
@@ -1423,10 +1442,10 @@ body{
 				}
 
 
-		.t12{
+		.t11{
 			position: absolute;
 			margin-left: 1850px;
-			margin-top: -350px;    
+			margin-top: -150px;    
 		    height:100px; 
 		    width: 50px; 
 		    border-radius: 0 150px 150px 0; 
@@ -1447,18 +1466,18 @@ body{
 					transition-duration: 0.5s
 				}
 		
-		.t13{
+		.t12{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
 		    background:#cae8a7;
 		    margin-left: 1800px;
-		    margin-top:-250px;
+		    margin-top:-50px;
 		    border-radius: 100px 0 0;
 		    transition-duration: 1s
 		}
 
-			.t13:hover{
+			.t12:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:#ddf5c1;
