@@ -1,7 +1,6 @@
 *{
-	margin-left: 0px;
+	margin-left:0px;
 	margin-top: 0px;
-	transform: scale(0.7);
 
 }
 
@@ -9,6 +8,8 @@ body{
 	background:#a8c28c;
     width:10vw;
     height:10vh;
+    transform:scale(0.6);
+    margin-left: -40px;
 }
 
 
@@ -24,13 +25,13 @@ body{
 
 .s-bounding-box{
     position: relative;
-    margin-top: 150px;
-    margin-left: 25px;
+    margin-top: 200px;
+    margin-left: 0px;
     width: 2050px;
     height: 500px;
     padding-right:10px;
     padding-left: 10px;
-    background-color:#a8c28c;
+    background-color:#000000;
 }
 
 		.s1{
