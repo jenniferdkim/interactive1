@@ -3,7 +3,7 @@ body{
 }
 
 .arrowback{
-		position:absolute;
+	position:absolute;
 	margin-top: -200px;
 	margin-left: -180px;
 	transform:scale(0.2);
@@ -22,8 +22,8 @@ body{
 	position: absolute;
 	margin-top: -50px;
 	margin-left: -350px;
-	transform: scale(0.6);
-	display: block;
+	transform: scale(0.4);
+	pointer-events: none;
 }
 
 .numbers{
@@ -32,5 +32,5 @@ body{
 	margin-left: -350px;
 	transform: scale(0.6);
 	padding-bottom: 100px;
-	display: block;
+	pointer-events: none;
 }
