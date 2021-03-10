@@ -2,6 +2,24 @@ body{
 	background-color:#b5d492;
 }
 
+@media screen and (min-width: 1500px) {
+  body {
+    transform:scale(0.5);
+      }
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    transform:scale(0.5);
+      }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    transform:scale(0.4);
+      }
+}
+
 .arrowback{
 	position:absolute;
 	margin-top: -200px;
