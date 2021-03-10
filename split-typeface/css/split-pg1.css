@@ -1,15 +1,31 @@
-*{
-	margin-left:0px;
-	margin-top: 0px;
 
+
+@media screen and (min-width: 1500px) {
+  body {
+    transform:scale(0.6);
+      }
 }
+
+@media screen and (max-width: 1500px) {
+  body {
+    transform:scale(0.6);
+      }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    transform:scale(0.4);
+      }
+}
+
 
 body{
 	background:#a8c28c;
     width:10vw;
     height:10vh;
-    transform:scale(0.6);
-    margin-left: -90px;
+    /*transform:scale(0.6);*/
+    margin-left: 50px;
+
 }
 
 .arrow1{
@@ -23,6 +39,7 @@ body{
 
 .arrow2{
 	position: absolute;
+	display: block;
 	margin-top: 540px;
 	margin-left: 1550px;
 	transform: scale(0.4);
@@ -32,7 +49,7 @@ body{
 }
 
 
-@media screen  {
+/*@media screen  {
  	body {
     display: auto;
     resize: auto;
@@ -40,7 +57,7 @@ body{
     width: 50vw;
 
       }
-}
+}*/
 
 .s-bounding-box{
     position: relative;
@@ -1297,7 +1314,7 @@ body{
 					transition-duration: 0.5s
 				}
 
-		.t3{
+		.t4{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
@@ -1322,7 +1339,7 @@ body{
 					transition-duration: 0.5s
 				}
 
-		.t4{
+		.t5{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
@@ -1333,14 +1350,14 @@ body{
 		    transition-duration: 1s
 		}
 
-				.t4:hover{
+				.t5:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
-		.t5{
+		.t6{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
@@ -1364,7 +1381,7 @@ body{
 					transition-duration: 0.5s
 				}
 
-		.t6{
+		.t7{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
@@ -1374,13 +1391,13 @@ body{
 		    border-radius: 0 100px 0 0;
 		    transition-duration: 1s
 		}
-				.t6:hover{
+				.t7:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
-		.t7{
+		.t8{
 			position: absolute;
 			width:50px;
 			height:50px;
@@ -1403,7 +1420,7 @@ body{
 					transition-duration: 0.5s
 				}
 
-		.t8{
+		.t9{
 			position: absolute;
 			margin-left: 1800px;
 			margin-top: -400px;    
@@ -1413,14 +1430,14 @@ body{
 		    background-color:#cae8a7; 
 		    transition-duration: 1s
 		}
-				.t8:hover{
+				.t9:hover{
 					position: absolute;
 					border-radius: 0 0 0 0;
 					background-color:#ddf5c1;
 					transition-duration: 0.5s
 				}
 
-		.t9{
+		.t10{
 			position: absolute;
 			margin-left: 1850px;
 			margin-top: -300px;    
@@ -1444,7 +1461,7 @@ body{
 					transition-duration: 0.5s
 				}
 		
-		.t10{
+		.t11{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
@@ -1454,7 +1471,7 @@ body{
 		    border-radius: 0 0 0 100px;
 		    transition-duration: 1s
 		}
-				.t10:hover{
+				.t11:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:#ddf5c1;
@@ -1462,7 +1479,7 @@ body{
 				}
 
 
-		.t11{
+		.t12{
 			position: absolute;
 			margin-left: 1850px;
 			margin-top: -150px;    
@@ -1472,6 +1489,8 @@ body{
 		    background-color: #cae8a7; 
 		    transition-duration: 1s
 		}
+
+
 				.active63{
 					position: absolute;
 					border-radius:0 0 0 0;
@@ -1486,7 +1505,7 @@ body{
 					transition-duration: 0.5s
 				}
 		
-		.t12{
+		.t13{
 			position: absolute;
 			width: 50px;
 		    height: 50px;
@@ -1497,7 +1516,7 @@ body{
 		    transition-duration: 1s
 		}
 
-			.t12:hover{
+			.t13:hover{
 					position: absolute;
 					border-radius:100px 100px 100px 100px;
 					background-color:#ddf5c1;
