@@ -64,7 +64,7 @@ grid-column-end: 5;
 				position: absolute;
 				margin-left:50px;
 				margin-top: 280px;
-				mix-blend-mode:;
+				mix-blend-mode:exclusion;
 				background:transparent;
 			}
 			/*	@keyframes myanimation
@@ -89,7 +89,7 @@ grid-column-end: 5;
 				margin-left:5px;
 				margin-top:985px;
 				background:transparent;
-				mix-blend-mode:exclusion;
+				mix-blend-mode: difference;
 			}
 
 			#four{
