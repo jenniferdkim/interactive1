@@ -1,12 +1,6 @@
-@font-face {
-  font-family: "HKGrotesk";
-  src: url(HKGrotesk-Medium.woff) format("font-format"),
-       url("the-path-to-your-font") format("font-format");
-}
-
-
 *{
 	margin-left: 8px
+	background-image: url('ket.png');
 }
 
 .container{
@@ -21,7 +15,7 @@ body {
 }
 h1 {
 	color:	#98FB98;
-	font-family: courier new
+	font-family: courier new;
 
 }
 
