@@ -1,0 +1,510 @@
+*{
+	background-color: #2b2b2b;
+	margin: 0px; padding: 0px;
+}
+
+.smileycursor{
+	cursor: url('smile.png'),default;
+
+}
+
+body{
+	font-family: pilowlava;
+	font-size:50px;
+	width:1400px;
+}
+
+#grid {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr; 
+	width: 1400px;
+	height: 100vh;
+	min-height: 1024px;
+
+
+/*.item{
+	height:1024px;
+	width:1440px;
+	display: grid;
+}*/
+}
+
+#cover {
+/*grid-row-start: 1;
+grid-column-start: 1;
+grid-column-end:5;*/
+height: 1024px;
+width: 1400px;
+grid-column-start:1;
+grid-column-end: 5;
+
+
+	background-image: url('../image/cvr.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+/*	background:pink;*/
+
+	/*text-align: center;
+	font-size:200px;*/
+	/*color:pink;*/
+	/*width: 1440px;*/
+}
+
+			#howtofind {
+			/*	position:relative;
+			*/	/*margin-top: 0px;*/
+				/*display:grid;*/
+			/*	grid-row-start:1;*/
+			}
+
+
+			#one{
+				position: absolute;
+				margin-left:50px;
+				margin-top: 280px;
+				mix-blend-mode:;
+				background:transparent;
+			}
+			/*	@keyframes myanimation
+					{
+					    from {
+					        left: 0;
+					    }
+					    to {
+					        left: 50%;
+					    }
+					}*/
+
+			#two{
+				position: absolute;
+				margin-left:200px;
+				margin-top: 430px;
+				background:transparent;
+			}
+
+			#three{
+				position:absolute;
+				margin-left:5px;
+				margin-top:985px;
+				background:transparent;
+				mix-blend-mode:exclusion;
+			}
+
+			#four{
+				position: absolute;
+				margin-left:50px;
+				margin-top: 340px;
+				background:transparent;
+			}
+
+			#twentyfour{
+
+				position: absolute;
+				margin-left:50px;
+				margin-top: 280px;
+				background:transparent;
+				mix-blend-mode: difference;
+			}
+
+			#how{
+				position:absolute;
+				margin-top:700px;
+				margin-left: 600px;
+				background:transparent;
+				mix-blend-mode: difference;
+			}
+
+			#to{
+				position: absolute;
+				margin-left:850px;
+				margin-top: 300px;
+				background:transparent;
+				mix-blend-mode: difference;
+			}
+
+			#find{
+				position: absolute;
+				margin-left:100px;
+				margin-top: 850px;
+				background:transparent;
+				mix-blend-mode: difference;
+			}
+
+			#true{
+				
+				position: absolute;
+				margin-left:150px;
+				margin-top: 80px;
+				background:transparent;
+				mix-blend-mode: difference;
+			}
+
+			#love{
+				position: absolute;
+				margin-left:1100px;
+				margin-top: 800px;
+				background:transparent;
+				mix-blend-mode: difference;
+			}
+
+			#and{
+				position: absolute;
+				margin-left:550px;
+				margin-top: 200px;
+				background:transparent;
+				mix-blend-mode: difference;
+			}
+
+			#happiness{
+				position: absolute;
+				margin-left:750px;
+				margin-top: 100px;
+				background:transparent;
+				mix-blend-mode: difference;
+
+			}
+
+#north{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	height: 1024px;
+	width: 1400px;
+	background:#2b2b2b;
+		}
+
+			#northh{
+			/*	position:relative;
+			*/	/*margin-top: 0px;*/
+				/*display:grid;
+				grid-row-start:1;
+				grid-column-start:1;
+				grid-column-end: 5;*/
+			}
+
+			#n{
+				position: absolute;
+				margin-left:300px;
+				margin-top: 450px;
+				background:transparent;
+			}
+
+			#n:hover{
+				content: url(../image/north2.png);
+				background:transparent;
+			}
+
+			#toronto{
+				position: absolute;
+				margin-left:100px;
+				margin-top: 200px;
+				background:transparent;
+			}
+
+			#toronto:hover{
+				content: url(../image/torontoinfo.png);
+				margin-top: 150px;
+			}
+
+			#chicago{
+				position: absolute;
+				margin-left:950px;
+				margin-top: 300px;
+				background:transparent;
+			}
+
+			#chicago:hover{
+				content: url(../image/chicagoinfo.png);
+				margin-top: 250px;
+			}
+
+			#stpaul{
+				position: absolute;
+				margin-left:200px;
+				margin-top: 750px;
+				background:transparent;
+			}	
+
+			#stpaul:hover{
+				content: url(../image/stpaulinfo.png);
+				margin-top: 680px;
+			}
+
+			#vancouver{
+				position: absolute;
+				margin-left:750px;
+				margin-top: 880px;
+				background:transparent;
+			}
+			#vancouver:hover{
+				content: url(../image/vancouverinfo.png);
+				margin-top: 780px;
+				margin-left:900px;
+			}
+	
+#south{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	height: 1024px;
+	background: #2b2b2b;
+}
+
+	#southh{
+			/*	position:relative;
+			*/	/*margin-top: 0px;*/
+				/*display:grid;
+				grid-row-start:1;
+				grid-column-start:1;
+				grid-column-end: 5;*/
+			}
+
+			#starr{
+
+				position:absolute;
+				margin-left:5px;
+				margin-top:-43px;
+				background:transparent;
+				mix-blend-mode:hard-light;
+
+			}
+
+			#s{
+				position: absolute;
+				margin-left:275px;
+				margin-top: 450px;
+				background:transparent;
+			}
+
+			#s:hover{
+				content: url(../image/south2.png);
+				background:transparent;
+			}
+
+			#dallas{
+				position: absolute;
+				margin-left:100px;
+				margin-top: 200px;
+				background:transparent;
+			}
+
+			#dallas:hover{
+				content: url(../image/dallasinfo.png);
+				margin-top: 150px;
+				margin-left: 150px;
+			}
+	
+
+			#austin{
+				position: absolute;
+				margin-left:950px;
+				margin-top: 300px;
+				background:transparent;
+			}
+
+			#austin:hover{
+			content: url(../image/austininfo.png);
+			margin-top: 250px;
+			margin-left: 1000px;
+			}
+	
+
+			#houston{
+				position: absolute;
+				margin-left:200px;
+				margin-top: 750px;
+				background:transparent;
+			}
+
+			#houston:hover{
+			content: url(../image/houstoninfo.png);
+			margin-top: 700px;
+			margin-left: 150px;
+			}
+	
+
+			#atlanta{
+				position: absolute;
+				margin-left:900px;
+				margin-top: 850px;
+				background:transparent;
+			}
+
+			#atlanta:hover{
+			content: url(../image/atlantainfo.png);
+			margin-top: 800px;
+			margin-left: 950px;
+			}
+
+
+#east{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	height: 1024px;
+	background: #2b2b2b;
+}
+		#starrr{
+
+				position:absolute;
+				margin-left:5px;
+				margin-top:-43px;
+				background:transparent;
+				mix-blend-mode: hard-light;
+
+			}
+
+			#e{
+				position: absolute;
+				margin-left:400px;
+				margin-top: 450px;
+				background:transparent;
+			}
+
+			#e:hover{
+			content: url(../image/east2.png);
+			}
+
+
+			#washington{
+				position: absolute;
+				margin-left:100px;
+				margin-top: 200px;
+				background:transparent;
+			}
+
+			#washington:hover{
+			content: url(../image/washingtoninfo.png);
+			margin-top: 150px;
+			margin-left: 100px;
+			}
+
+			#newyork{
+				position: absolute;
+				margin-left:950px;
+				margin-top: 300px;
+				background:transparent;
+			}
+
+
+			#newyork:hover{
+			content: url(../image/newyorkinfo.png);
+			margin-top: 250px;
+			margin-left: 1050px;
+			}
+
+			#boston{
+				position: absolute;
+				margin-left:200px;
+				margin-top: 750px;
+				background:transparent;
+			}
+
+			#boston:hover{
+			content: url(../image/bostoninfo.png);
+			margin-top: 700px;
+			margin-left: 200px;
+			}
+
+			#philadelphia{
+				position: absolute;
+				margin-left:700px;
+				margin-top: 880px;
+				background:transparent;
+			}
+
+			#philadelphia:hover{
+			content: url(../image/philadelphiainfo.png);
+			margin-top: 800px;
+			margin-left: 880px;
+			}	
+
+#west{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	height: 1024px;
+	background:#2b2b2b;
+}
+
+	#w{
+				position: absolute;
+				margin-left:350px;
+				margin-top: 450px;
+				background:transparent;
+			}
+
+			#w:hover{
+			content: url(../image/west2.png);
+			}
+
+			#berkley{
+				position: absolute;
+				margin-left:100px;
+				margin-top: 200px;
+				background:transparent;
+			}
+
+			#berkley:hover{
+			content: url(../image/berkleyinfo.png);
+			margin-top: 150px;
+			margin-left: 175px;
+			}
+
+			#losangeles{
+				position: absolute;
+				margin-left:800px;
+				margin-top: 300px;
+				background:transparent;
+			}
+
+			#losangeles:hover{
+			content: url(../image/losangelesinfo.png);
+			margin-top: 250px;
+			margin-left: 980px;
+			}
+
+			#ponoma{
+				position: absolute;
+				margin-left:100px;
+				margin-top: 700px;
+				background:transparent;
+			}
+
+			#ponoma:hover{
+			content: url(../image/ponomainfo.png);
+			margin-top: 700px;
+			margin-left: 100px;
+			}
+
+			#portland{
+				position: absolute;
+				margin-left:450px;
+				margin-top: 900px;
+				background:transparent;
+			}
+
+			#portland:hover{
+			content: url(../image/portlandinfo.png);
+			margin-top: 820px;
+			margin-left: 560px;
+			}
+
+			#seattle{
+				position: absolute;
+				margin-left:950px;
+				margin-top: 750px;
+				background:transparent;
+			}
+
+			#seattle:hover{
+			content: url(../image/ponomainfo.png);
+			margin-top: 700px;
+			margin-left: 1025px;
+			}
+
+.shuffle{
+	transition-delay: 1s
+	margin-top:100px;
+
+}
+
+
