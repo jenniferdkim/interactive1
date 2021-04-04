@@ -67,15 +67,7 @@ grid-column-end: 5;
 				mix-blend-mode:exclusion;
 				background:transparent;
 			}
-			/*	@keyframes myanimation
-					{
-					    from {
-					        left: 0;
-					    }
-					    to {
-					        left: 50%;
-					    }
-					}*/
+
 
 			#two{
 				position: absolute;
@@ -105,7 +97,28 @@ grid-column-end: 5;
 				margin-left:50px;
 				margin-top: 280px;
 				background:transparent;
-				mix-blend-mode: difference;
+				mix-blend-mode: overlay;
+				animation: movetwentyfour;
+				animation-duration: 1500ms;
+				animation-delay: 1.8s;
+				animation-fill-mode: forwards;
+			}
+
+
+				@keyframes movetwentyfour{
+				from{
+					margin-left: 50px;
+					margin-top: 280px;
+				}
+
+				to{
+					margin-left: 50px;
+					margin-top: 80px;
+					mix-blend-mode:difference;
+
+				
+				}
+
 			}
 
 			#how{
@@ -113,7 +126,25 @@ grid-column-end: 5;
 				margin-top:700px;
 				margin-left: 600px;
 				background:transparent;
-				mix-blend-mode: difference;
+				mix-blend-mode: overlay;
+				animation: movehow;
+				animation-duration: 1500ms;
+				animation-delay: 1.8s;
+				animation-fill-mode: forwards;
+			}
+
+				@keyframes movehow{
+				from{
+					margin-left: 700px;
+					margin-top: 600px;
+				}
+
+				to{
+					margin-left: 250px;
+					margin-top: 275px;
+					mix-blend-mode: difference;
+				}
+
 			}
 
 			#to{
@@ -121,7 +152,26 @@ grid-column-end: 5;
 				margin-left:850px;
 				margin-top: 300px;
 				background:transparent;
-				mix-blend-mode: difference;
+				mix-blend-mode: overlay;
+				animation: moveto;
+				animation-duration: 1500ms;
+				animation-delay: 1.8s;
+				animation-fill-mode: forwards;
+			}
+
+			@keyframes moveto{
+				from{
+					margin-left: 850px;
+					margin-top: 300px;
+				}
+
+				to{
+					margin-left: 600px;
+					margin-top: 80px;
+					mix-blend-mode: difference;
+				}
+
+
 			}
 
 			#find{
@@ -129,7 +179,26 @@ grid-column-end: 5;
 				margin-left:100px;
 				margin-top: 850px;
 				background:transparent;
-				mix-blend-mode: difference;
+				mix-blend-mode: overlay;
+				animation: movefind;
+				animation-duration: 1500ms;
+				animation-delay: 1.8s;
+				animation-fill-mode: forwards;
+			}
+
+			@keyframes movefind{
+				from{
+					margin-left: 100px;
+					margin-top: 850px;
+				}
+
+				to{
+					margin-left: 800px;
+					margin-top: 275px;
+					mix-blend-mode: difference;
+				}
+
+
 			}
 
 			#true{
@@ -138,7 +207,26 @@ grid-column-end: 5;
 				margin-left:150px;
 				margin-top: 80px;
 				background:transparent;
-				mix-blend-mode: difference;
+				mix-blend-mode:overlay;
+				animation: movetrue;
+				animation-duration: 1500ms;
+				animation-delay: 1.8s;
+				animation-fill-mode: forwards;
+			}
+
+				@keyframes movetrue{
+				from{
+					margin-left: 150px;
+					margin-top: 80px;
+				}
+
+				to{
+					margin-left: 1075px;
+					margin-top: 80px;
+					mix-blend-mode: difference;
+				}
+
+
 			}
 
 			#love{
@@ -146,15 +234,55 @@ grid-column-end: 5;
 				margin-left:1100px;
 				margin-top: 800px;
 				background:transparent;
-				mix-blend-mode: difference;
+				mix-blend-mode: overlay;
+				animation: movelove;
+				animation-duration: 1500ms;
+				animation-delay: 1.8s;
+				animation-fill-mode: forwards;
 			}
+
+				@keyframes movelove{
+				from{
+					margin-left: 1100px;
+					margin-top: 800px;
+				}
+
+				to{
+					margin-left: 150px;
+					margin-top: 725px;
+					mix-blend-mode: difference;
+				}
+
+
+			}
+
+
 
 			#and{
 				position: absolute;
 				margin-left:550px;
 				margin-top: 200px;
 				background:transparent;
-				mix-blend-mode: difference;
+				mix-blend-mode: overlay;
+				animation: moveand;
+				animation-duration: 1500ms;
+				animation-delay: 1.8s;
+				animation-fill-mode: forwards;
+			}
+
+				@keyframes moveand{
+				from{
+					margin-left: 550px;
+					margin-top: 200px;
+				}
+
+				to{
+					margin-left: 550px;
+					margin-top: 780px;
+					mix-blend-mode: difference;
+				}
+
+
 			}
 
 			#happiness{
@@ -162,9 +290,30 @@ grid-column-end: 5;
 				margin-left:750px;
 				margin-top: 100px;
 				background:transparent;
-				mix-blend-mode: difference;
+				mix-blend-mode:overlay;
+				animation: movehappiness;
+				animation-duration: 1500ms;
+				animation-delay: 1.8s;
+				animation-fill-mode: forwards;
 
 			}
+
+				@keyframes movehappiness{
+				from{
+					margin-left: 750px;
+					margin-top: 100px;
+				}
+
+				to{
+					margin-left: 750px;
+					margin-top: 850px;
+					mix-blend-mode: difference;
+				}
+
+
+			}
+
+
 
 #north{
 	grid-column-start: 1;
