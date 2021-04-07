@@ -3,8 +3,14 @@
 	margin: 0px; padding: 0px;
 }
 
-.smileycursor{
-	cursor: url('smile.png'),default;
+/*.cursor{
+	width:20px;
+	height:20px;
+	border:1px solid red;
+	border-radius: 50%; 
+	position:absolute;
+	cursor: url('../image/smile.png'),auto;
+*/
 
 }
 
@@ -12,6 +18,7 @@ body{
 	font-family: pilowlava;
 	font-size:50px;
 	width:1400px;
+	/*cursor: url('../image/smile.png'),auto;*/
 }
 
 #grid {
