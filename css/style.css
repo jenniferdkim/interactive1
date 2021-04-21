@@ -1,27 +1,29 @@
 
 
 *{
-	margin-left: 10px
+	background:#a3bfa3;
+	margin-left:15px;
+	/*background-image: url("ah.png");
+	background-size: cover;*/
 }
-
+ 
 .container{
 
 }
 
 body { 
-	background:#DDA0DD;
 	font-family: courier new;
 	font-weight: bold; 
 
 
 }
 h1 {
-	color:	#98FB98;
+	color:#d3f2c2;
 	font-family: 
 }
 
 
 h3{
-	color:white;
+	color:black;
 	font-family: courier new
 }
