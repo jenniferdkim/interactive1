@@ -74,3 +74,70 @@
 	margin-top:675px;
 	background:transparent;
 }
+
+#ylwheart{
+	position:absolute;
+	display:block;
+	height:350px;
+	width:350px;
+	margin-left: 1050px;
+	margin-top:750px;
+	background:transparent;
+	transform: scale(0.7);
+}
+
+#pinkheart{
+	position:absolute;
+	display:block;
+	height:350px;
+	width:350px;
+	margin-left: 660px;
+	margin-top:420px;
+	background:transparent;
+	transform: scale(0.8);
+}
+
+#grnheart{
+	position:absolute;
+	display:block;
+	height:350px;
+	width:350px;
+	margin-left: 50px;
+	margin-top:735px;
+	background:transparent;
+	transform: scale(0.7);
+}
+
+#blheart{
+	position:absolute;
+	display:block;
+	height:350px;
+	width:350px;
+	margin-left: 100px;
+	margin-top:200px;
+	background:transparent;
+	transform: scale(0.8);
+}
+
+
+#prplheart{
+	position:absolute;
+	display:block;
+	height:350px;
+	width:350px;
+	margin-left: 950px;
+	margin-top:50px;
+	background:transparent;
+	transform: scale(0.7);
+}
+
+#drkorangeheart{
+	position:absolute;
+	display:block;
+	height:350px;
+	width:350px;
+	margin-left: 450px;
+	margin-top:650px;
+	background:transparent;
+	transform: scale(0.7);
+}
