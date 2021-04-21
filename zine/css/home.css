@@ -1,0 +1,78 @@
+/*@media screen and (min-width: 2000px) {
+  body {
+    transform:scale(1.2);
+      }
+}
+
+@media screen and (max-width: 2000px) {
+  body {
+    transform:scale(1);
+      }
+}*/
+*{
+	background:#FFEDCA;
+	margin: 0px; padding-left: : 0px;
+	width:100vw;
+	align-items: center;
+}
+
+
+#banner{
+	position:absolute;
+	display: block;
+	width:903px;
+	height: 838px;
+	margin-left: 0px;
+	background:transparent;
+	transform: scale(0.85);
+
+}
+
+#about{
+	position:absolute;
+	display:block;
+	height:33.65px;
+	width:176.12px;
+	margin-left: 1200px;
+	margin-top:100px;
+	background:transparent;
+}
+
+#poems{
+	position:absolute;
+	display:block;
+	height:33.65px;
+	width:180px;
+	margin-left: 1200px;
+	margin-top:700px;
+	background:transparent;
+}
+
+#smilerowone{
+	position:absolute;
+	display:block;
+	height:234.75px;
+	width:1440px;
+	background:transparent;
+	margin-top: 20px;
+}
+
+#smilerowtwo{
+	display:block;
+	position:absolute;
+	height:234.75px;
+	width:1440px;
+	margin-top: 320px;
+	background:transparent;
+
+}
+
+#smilerowthree{
+	display:block;
+	position:absolute;
+	height:234.75px;
+	width:1440px;
+	margin-top: 620px;
+	background:transparent;
+
+}

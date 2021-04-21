@@ -1,0 +1,66 @@
+*{
+	background:#FFF4DF;
+	margin: 0px; padding: 0px;
+	width:100vw;
+}
+
+#home{
+	position:absolute;
+	display:block;
+	height:25.24px;
+	width:115px;
+	margin-left: 17.5px;
+	margin-top:17px;
+	background:transparent;
+}
+
+#earthh{
+	position:absolute;
+	display:block;
+	height:90px;
+	width:360px;
+	margin-left:500px;
+	margin-top:140px;
+	background:transparent;
+}
+
+#poem{
+	position:absolute;
+	display:block;
+	height:100px;
+	width:570px;
+	margin-left: 410px;
+	margin-top:340px;
+	background:transparent;
+
+}
+
+#sheep{
+	position:absolute;
+	display:block;
+	height:32px;
+	width:353px;
+	margin-left: 510px;
+	margin-top:810px;
+	background:transparent;
+}
+
+#pet{
+	position:absolute;
+	display:block;
+	height:27px;
+	width:117px;
+	margin-left: 17.5px;
+	margin-top:815px;
+	background:transparent;
+}
+
+#flute{
+	position:absolute;
+	display:block;
+	height:26px;
+	width:88px;
+	margin-left: 1200px;
+	margin-top:810px;
+	background:transparent;
+}

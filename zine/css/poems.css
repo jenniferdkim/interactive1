@@ -1,0 +1,76 @@
+*{
+	background:#FEFFD4;
+	margin: 0px; padding: 0px;
+	width:100vw;
+}
+
+#poems{
+	position:absolute;
+	display:block;
+	height:85px;
+	width:530px;
+	margin-left:450px;
+	margin-top:200px;
+	background:transparent;
+
+}
+
+#home{
+	position:absolute;
+	display:block;
+	height:25.24px;
+	width:118.25px;
+	margin-left: 17.5px;
+	margin-top:17px;
+	background:transparent;
+}
+
+#about{
+	position:absolute;
+	display:block;
+	height:25.24px;
+	width:125px;
+	margin-left: 1240px;
+	margin-top:10px;
+	background:transparent;
+}
+
+#sheep{
+	position:absolute;
+	display:block;
+	height:35px;
+	width:385px;
+	margin-left: 525px;
+	margin-top:375px;
+	background:transparent;
+}
+
+#earth{
+	position:absolute;
+	display:block;
+	height:28px;
+	width:115px;
+	margin-left: 650px;
+	margin-top:475px;
+	background:transparent;
+}
+
+#flute{
+	position:absolute;
+	display:block;
+	height:28px;
+	width:95px;
+	margin-left: 660px;
+	margin-top:575px;
+	background:transparent;
+}
+
+#pet{
+	position:absolute;
+	display:block;
+	height:32px;
+	width:165px;
+	margin-left: 633px;
+	margin-top:675px;
+	background:transparent;
+}
