@@ -228,11 +228,12 @@ body{
 .darkmode{
 	position:fixed;
 	display: block;
-	margin-left: 925px;
-	margin-top: 130px;
-	transform: scale(0.2);
+	margin-left: 932px;
+	margin-top: 125px;
 	background-color:transparent;
 	outline:none;
+/*	transform:rotate(330deg);
+*/	transform: scale(0.2);
 }
 
 .darkmode:hover{
