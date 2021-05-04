@@ -1,10 +1,7 @@
 
 
 *{
-	background:#a3bfa3;
 	margin-left:15px;
-	/*background-image: url("ah.png");
-	background-size: cover;*/
 }
  
 .container{
@@ -12,18 +9,31 @@
 }
 
 body { 
+	background-image: url('../images/ah2.png');
+	background-size: cover;
 	font-family: courier new;
 	font-weight: bold; 
-
-
 }
+
 h1 {
-	color:#d3f2c2;
-	font-family: 
+	color:#8da38c;
+	margin-left:;
+/*	transform: scale(1.5);
+/*	text-align: center;*/
+
 }
 
 
-h3{
-	color:black;
-	font-family: courier new
+#projects{
+	color:#000000;
+	font-family: courier new;
+/*	margin-left: 700px;*/
+
+}
+
+#exercises{
+	color:#000000;
+/*	margin-left: 700px;
+	margin-top:10px;
+*/
 }
