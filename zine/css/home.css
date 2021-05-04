@@ -1,28 +1,97 @@
-/*@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
   body {
-    transform:scale(0.2);
+    transform:scale(0.7);
       }
-}
 
+     #banner{
+     	margin-left: -250px;
+     }
+
+     #about{
+     	margin-left:1110px;
+     	margin-top: 130px;
+     }
+
+     #poems{
+     	margin-left:1110px;
+     	margin-top: 760px;
+     }
+
+
+     .darkmode{
+     	margin-left: 930px;
+     }
+
+     #smileyrowone{
+     	margin-left: -600px
+     }
+
+     #smileyrowonetwo{
+     	margin-left: 800px;
+     }
+
+     #smileyrowtwo{
+     		margin-left: -1000px;
+     }
+
+     #smileyrowthree{
+     	margin-left: -5000px;
+     }
+
+     #smileyrowthreetwo{
+     	margin-left:-500px;
+     }
+
+     
+}
+/*
 @media screen and (max-width: 500px) {
   body {
     transform:scale(0.2);
       }
-}
-@media screen and (min-width: 1000px) {
+}*/
+
+/*@media screen and (min-width: 900px) {
   body {
-    transform:scale(0.8);
+    transform:scale(0.85);
       }
+}*/
+
+@media screen and (min-width: 1200px) {
+  body {
+    transform:scale(1);
+      }
+
+      #banner{
+     	margin-left: 0px;
+     }
+
+     #about{
+     		margin-left: 1150px;
+	margin-top:120px;
+     }
+
+     #poems{
+     	margin-left: 1150px;
+	margin-top:750px;
+     }
+
+     .darkmode{
+     	margin-left: 970px;
+     }
+
 }
 
-@media screen and (max-width: 1000px) {
+
+
+/*@media screen and (max-width: 1000px) {
   body {
     transform:scale(0.8);
       }
 }*/
 *{
 	margin: 0px; padding-left: : 0px;
-	align-items: center;
+/*	align-items: center;*/
 	/*max-width:100vw;
 	max-height:100%;*/
 }
@@ -33,34 +102,35 @@ body{
 }
 
 #banner{
-	position:fixed;
-	display: block
-	width:auto;
-	height:100vh;
+	position:absolute;
+	display:block;
+	width:903px;
+	height:838;
+/*	margin-left:0px;*/
 	background:transparent;
 	transform: scale(0.85);
 
 }
 
 #about{
-	position:fixed;
+	position:absolute;
 	display:block;
 	height:33.65px;
 	width:176.12px;
 	/*width:25vw;
 /*	max-width: 176px;
-*/	margin-left: 1100px;
-	margin-top:80px;
+*//*	margin-left: 1300px;
+	margin-top:120px;*/
 	background:transparent;
 }
 
 #poems{
-	position:fixed;
-	display:block
-	height:100vh;
+	position:absolute;
+	display:block;
+	height:33.65px;
 	width:180px;
-	margin-left: 1115px;
-	margin-top:680px;
+	/*margin-left: 1115px;
+	margin-top:750px;*/
 	background:transparent;
 }
 
@@ -228,8 +298,8 @@ body{
 .darkmode{
 	position:fixed;
 	display: block;
-	margin-left: 932px;
-	margin-top: 125px;
+/*	margin-left: 932px;*/
+	margin-top: 170px;
 	background-color:transparent;
 	outline:none;
 /*	transform:rotate(330deg);

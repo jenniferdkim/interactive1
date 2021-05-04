@@ -1,5 +1,5 @@
 *{
-	background:#FFF4DF;
+	background:#9BAFE2;
 	margin: 0px; padding: 0px;
 	width:100vw;
 }
@@ -20,7 +20,7 @@
 	height:92px;
 	width:292px;
 	margin-left:540px;
-	margin-top:140px;
+	margin-top:180px;
 	background:transparent;
 }
 
@@ -30,7 +30,7 @@
 	height:270px;
 	width:500px;
 	margin-left: 435px;
-	margin-top:340px;
+	margin-top:360px;
 	background:transparent;
 
 }
@@ -40,8 +40,8 @@
 	display:block;
 	height:25.24px;
 	width:111px;
-	margin-left: 17.5px;
-	margin-top:750px;
+	margin-left: 300px;
+	margin-top:17px;
 	background:transparent;
 }
 
@@ -51,7 +51,7 @@
 	height:27px;
 	width:117px;
 	margin-left: 1200px;
-	margin-top:750px;
+	margin-top:20px;
 	background:transparent;
 }
 
@@ -60,7 +60,7 @@
 	display:block;
 	height:32px;
 	width:353px;
-	margin-left: 510px;
-	margin-top:750px;
+	margin-left: 650px;
+	margin-top:17px;
 	background:transparent;
 }

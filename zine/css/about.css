@@ -1,10 +1,15 @@
+@media screen and (max-width: 700px) {
+  body {
+    transform:scale(0.7);
+      }
+}*
+
 *{
 	background:#F0FFE1;
 	margin: 0px; padding: 0px;
-	align
 	max-width:100%;
-	max-height: 100vh;
-}
+/*	max-height: 100vh;
+*/}
 
 #aboutpg{
 	position:absolute;
@@ -29,7 +34,7 @@
 }
 
 #homepg{
-	position:fixed;
+	position:absolute;
 	display:block;
 	height:25.24px;
 	width:118.25px;
@@ -39,7 +44,7 @@
 }
 
 #poems{
-	position:fixed;
+	position:absolute;
 	display:block;
 	height:25.2px;
 	width:146.04px;
